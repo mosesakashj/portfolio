@@ -10,7 +10,34 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-  <title>Document</title>
+  <style>
+  
+    
+    @media screen and (min-width: 601px) {
+      h3 {
+        font-size: 30px;
+      }
+      h1{
+        font-size:40px;
+      }
+      p{
+        font-size:17px;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      h3 {
+        font-size: 17px;
+      }
+      h1{
+        font-size:30px;
+      }
+      p{
+        font-size:13px;
+      }
+    }
+    </style>
+  <title>Akash J</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -27,74 +54,158 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contact</a>
+          <a class="nav-link" href="#">Memories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
+  <div class="container-fluid" >
+    <div class="row">
+      <img src="/images/head.jpg" alt="" srcset="" width="100%">
+    </div>     
+  </div>
 
+
+ 
+  <section class="page-section pb-5 pt-3" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted pb-3">Life of Akash J</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="/images/trichy.jpg" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>15-Aug-1999</h4>
+                        <h4 class="subheading">My Beginnings</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">I born in Tiruchengode. Afterwards My Native is completely changed into Trichy.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="/images/school.png" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2009-2016</h4>
+                        <h4 class="subheading">School Life </h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">I studied in St.Joseph's College Hr Sec School at Trichy.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="/images/college.jpg" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>August 2016</h4>
+                        <h4 class="subheading">College Life</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">I enjoyed and learned lot from CARE Group of Institutions, Trichy.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/processdrive.jpg" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>5 Oct 2020</h4>
+                        <h4 class="subheading">Employee of ProcessDrive</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Got Well Environment and Life is going with learning with solving problems.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>
+                        Be Part
+                        <br />
+                        Of My
+                        <br />
+                        Story!
+                    </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                        <h4> </h4><br>
+                      <h4 class="subheading">To Be Continued...</h4>
+                  </div>
+              </div>
+              </div>
+              
+          </div>
+            </li>
+        </ul>
+    </div>
+</section>
 
 
   <!-- Skills Section  -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="skills">
     <div class="row">
       <div class="container-fluid border">
         <h1 class="pt-3 pb-3" style="vertical-align: middle;text-align: center;">My Skills </h1>
       </div>
     </div>
-    <div class="row pb-3">
-        <div class="col">
-          <h3>HTML5</h3>
-         <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width:80%"></div>
+    <div class="row pb-3 pt-2">
+        <div class="col-sm">
+          <p>HTML</p>
+          <div class="container">
+            <div class="skills html">90%</div>
+          </div>
+          
+          <p>CSS</p>
+          <div class="container">
+            <div class="skills css">80%</div>
+          </div>
+          
+          <p>JavaScript</p>
+          <div class="container">
+            <div class="skills js">65%</div>
+          </div>
+          
+          <p>PHP</p>
+          <div class="container">
+            <div class="skills php">60%</div>
           </div>
          </div>
-         <div class="col">
-          <h3>CSS</h3>
-         <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width:65%"></div>
+         <div class="col-sm">
+          <p>HTML</p>
+          <div class="container">
+            <div class="skills html">90%</div>
           </div>
-         </div>
-          <div class="col">
-          <h3>JS</h3>
-         <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width:75%"></div>
+          
+          <p>CSS</p>
+          <div class="container">
+            <div class="skills css">80%</div>
+          </div>
+          
+          <p>JavaScript</p>
+          <div class="container">
+            <div class="skills js">65%</div>
+          </div>
+          
+          <p>PHP</p>
+          <div class="container">
+            <div class="skills php">60%</div>
           </div>
          </div>
     </div>
-
-    <div class="row pb-3 pt-3">
-      <div class="col">
-        <h3>PHP</h3>
-       <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width:50%"></div>
-        </div>
-       </div>
-       <div class="col">
-        <h3>MYSQL</h3>
-       <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width:70%"></div>
-        </div>
-       </div>
-        <div class="col">
-        <h3>PYTHON</h3>
-       <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width:25%"></div>
-        </div>
-       </div>
   </div>
   </div>
   
 
 
   <!-- projects Section  -->
-  <div class="container-fluid pb-3">
+  <div class="container-fluid pb-3" id="projects">
     <div class="row">
       <div class="container-fluid border">
         <h1 class="pt-3 pb-3" style="vertical-align: middle;text-align: center;">Internet of Things </h1>
@@ -114,6 +225,39 @@
             </div>
           </div>
           <div class="col-sm">
+           <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Smart Home System</h5>
+                  <p class="scroll">
+                    A smart home (SH) is an Internet of Things (IoT) application that utilizes the Internet to monitor and control appliances using a home automation system. Lack of IoT technology usage, unfriendly user interface, limited wireless transmission range, and high costs are the limitations of existing home automation systems.<br>
+                    The future of IoT has the potential to be limitless. Advances to the industrial internet will be accelerated through increased network agility, integrated artificial intelligence (AI) and the capacity to deploy, automate, orchestrate and secure diverse use cases at hyperscale.<br>
+                    Smart home ensures you save electricity and reduce your power and water bills. Often it is observed that lights remain on due to the laziness of standing up and turning them off. A smart home will allow you to turn off lights and other electronic items even when you are in bed and going to sleep. <br>
+                    For example, user's can program their garage door to open, the lights to go on, the fireplace to turn on and their favorite tunes to play upon their arrival.
+                  </p>
+                </div>  
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-3 pb-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+               <div class="card-body">
+                <h5 class="card-title">Smart Street Light System</h5>
+                <p class="scroll">
+                  Intelligent street lighting refers to public street lighting that adapts to movement by pedestrians, cyclists and cars. Intelligent street lighting, also referred to as adaptive street lighting, dims when no activity is detected, but brightens when movement is detected.<br>
+                  A smart street light system incorporates a cluster of streetlight lamps that can communicate with each other and provide lighting data to a local concentrator. The concentrator manages and transmits the relevant data to a secure server that captures the data and presents it in a web-browser dashboard.<br>
+                  Street lighting provides a number of important benefits. It can be used to promote security in urban areas and to increase the quality of life by artificially extending the hours in which it is light so that activity can take place. Street lighting also improves safety for drivers, riders, and pedestrians.<br>
+                  Smart lights use CFL or LED bulbs instead of incandescent bulbs, and can reduce the amount of electricity needed to light a room. An ENERGY STAR®️–certified smart bulb uses 70 to 90 percent less energy than a traditional bulb.
+                </p>
+               </div>
+            </div>
+           </div>
+          <div class="col-sm">
             <div class="hovereffect">
               <img class="img-responsive" src="images/153815521.jpg" alt="">
               <div class="overlay">
@@ -126,7 +270,15 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid border pt-3 pb-3" style="background-color: rgb(31, 30, 30);">
+
+
+
+ 
+
+
+
+ 
+  <div class="container-fluid border pt-3 pb-3" style="background-color: rgb(31, 30, 30);" id="contact">
       <div class="container pr-5">
         <div class="row">
           <div class="col" >
@@ -137,19 +289,19 @@
           </div>
           <div class="col-4">
             <h3 style="color: honeydew;">Contact</h3>
-            <p style="color: lightslategray;"><i class="fas fa-map-marker-alt"  style="color: lightslategray;"></i> 4/180, UKT Malai, Trichy.</p>
-            <p style="color: lightslategray;"><i class="fas fa-phone" style="color: lightslategray;"></i> Phone: +91 9750840534</p>
-            <p style="color: lightslategray;"><i class="fas fa-envelope" style="color: lightslategray;"></i> Email: <a href="mailto:mosesakash.j@gmail.com" style="color: lightslategray;">mosesakash.j@gmail.com</a></p>
-            <p style="color: lightslategray;"><i class="fab fa-skype" style="color: lightslategray;" ></i> Skype: Only for friends</p>
+            <p id="grey"><i class="fas fa-map-marker-alt"  ></i> 4/180, UKT Malai, Trichy.</p>
+            <p id="grey"><i class="fas fa-phone"></i> Phone: +91 9750840534</p>
+            <p id="grey"><i class="fas fa-envelope"></i> Email: <a href="mailto:mosesakash.j@gmail.com" id="grey">mosesakash.j@gmail.com</a></p>
+            <p id="grey"><i class="fab fa-skype" ></i> Skype: Only for friends</p>
           </div>
           <div class="col-3">
             <h3 style="color: honeydew;">Follow us</h3>
-                <p style="color: lightslategray;" class="flex pt-3">
-                    <a href="#" style="color: lightslategray;" ><i class="fab fa-facebook fa-2x pr-2" ></i></a> 
-                    <a href="#" style="color: lightslategray;" ><i class="fab fa-twitter fa-2x pr-2"></i></a> 
-                    <a href="#" style="color: lightslategray;" ><i class="fab fa-google-plus-g fa-2x pr-2"></i></a> 
-                    <a href="#" style="color: lightslategray;" ><i class="fab fa-instagram fa-2x pr-2"></i></a> 
-                    <a href="#" style="color: lightslategray;" ><i class="fab fa-pinterest fa-2x pr-2"></i></a>
+                <p id="grey" class="flex pt-3">
+                    <a href="#"><i class="fab fa-facebook fa-2x pr-2" ></i></a> 
+                    <a href="#" ><i class="fab fa-twitter fa-2x pr-2"></i></a> 
+                    <a href="#" ><i class="fab fa-google-plus-g fa-2x pr-2"></i></a> 
+                    <a href="#" ><i class="fab fa-instagram fa-2x pr-2"></i></a> 
+                    <a href="#" ><i class="fab fa-pinterest fa-2x pr-2"></i></a>
                 </p>
           </div>
       </div>
