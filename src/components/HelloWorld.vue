@@ -216,7 +216,7 @@
         { icon: 'mdi-google' },
         { icon: 'mdi-linkedin' },
       ],
-    }),
+    })
   }
 </script>
 <style scoped>
@@ -237,5 +237,4 @@
     color: #45505b;
     font-family: "Raleway", sans-serif;
 }
-
 </style>

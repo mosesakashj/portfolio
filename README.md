@@ -22,6 +22,8 @@ npm run lint
 
 ### Build Update Commands for Github Pages
 ```
+(Remove dist directory from git ignore file)
+
 npm run build
 git add dist
 git commit -m 'adding dist subtree'
